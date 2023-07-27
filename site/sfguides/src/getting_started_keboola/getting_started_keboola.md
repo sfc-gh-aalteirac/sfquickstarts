@@ -32,12 +32,71 @@ This Quickstart will guide you to build a complete data pipeline from ingestion,
  
 ### ![Template](assets/important-point-icon.png) What You’ll Need 
 - A [Snowflake](https://trial.snowflake.com/) account or free trial
-* A [Keboola](https://snowshop.keboola.com/) account or free trial
 
 ### What You’ll Build 
 - A complete data pipeline from Shopify and FaceBook Ads. The Keboola template will automatically join, clean and transform data into Snowflake. Within few clicks, Keboola will generates RFM segmentation to optimize the monetization of your online traffic. A predefined Streamlit "Connected application" closes the loop to visualise data, create marketing discount simulations and write back results into Snowflake. 
 
 ![Template](assets/template.png) 
+
+## Create Keboola Account with Partner Connect
+Duration: 5
+
+### Step 1 
+1. Login to **Snowflake Snowsight**.
+2. Switch role to **ACCOUNTADMIN**.
+3. Click **Admin > Partner Connect**.
+4. Search for **Keboola**.
+![kebPC](assets/pctile.png) 
+5. Click **Keboola** tile.
+
+### Step 2
+1. See objects that will be created in Snowflake.
+2. Click **Connect**.<BR>
+![PartnerConnect](assets/pcinfo.png)
+
+### Step 3
+1. Click **Activate**.<BR>
+![PartnerConnect](assets/pcactivate.png)
+
+### Troubleshooting
+
+You must have a verified email in your profile. Otherwise you'll get the following message:
+
+![PartnerConnect](assets/pcemailverif.png)
+
+You also MUST have a first name and last name in your profile:
+
+Open your profile:
+
+![PartnerConnect](assets/pcprofile1.png)
+
+Add email, first and last name:
+
+![PartnerConnect](assets/pcprofile2.png)
+
+## Activate Keboola Account
+Duration: 2
+
+### Define your Keboola password
+After you have clicked "Activate" from the previous section, you'll land on Keboola's Welcome page to define your password:
+
+![PartnerConnect](assets/pckebaccountactivation.png)
+
+### Enable full features
+
+Congratulation, you have now a Keboola account!
+
+We need to enable all features for this lab. It's a simple process. Copy the SQL code from the Keboola UI:
+
+![PartnerConnect](assets/pcenableall.png)
+
+In Snowflake Snowsight, open a new worksheet, paste the code and select "Run All", be sure all rows are executed!
+
+![PartnerConnect](assets/pcenableallsnow.png)
+
+Go back to Keboola, you should see the following:
+
+![PartnerConnect](assets/pcenableallsuccess.png)
 
 
 ## Setup Snowflake Account
