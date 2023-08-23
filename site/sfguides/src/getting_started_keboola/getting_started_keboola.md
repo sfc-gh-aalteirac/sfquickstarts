@@ -36,6 +36,7 @@ This Quickstart will guide you to build a complete data pipeline from ingestion,
 ### What You’ll Build 
 - A complete data pipeline from Shopify and FaceBook Ads. The Keboola template will automatically join, clean and transform data into Snowflake. Within few clicks, Keboola will generates RFM segmentation to optimize the monetization of your online traffic. A predefined Streamlit "Connected application" closes the loop to visualise data, create marketing discount simulations and write back results into Snowflake. 
 
+UPDATE THE SCREENSHOT WITH UPDATED TITLE AND DESCIRPTION
 ![Template](assets/template.png) 
 
 ## Create Keboola Account with Partner Connect
